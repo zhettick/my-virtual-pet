@@ -104,6 +104,17 @@ footer {
     transition: transform 0.3s;
 }
 
+a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+a:hover {
+    background: #ffb6c1;
+    color: white;
+}
+
 #gallery-end {
     text-align: center;
 }
