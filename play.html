@@ -1,7 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Virtual Pet</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+
+<head>
+    <title>My Virtual Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="play-title">Catch the cat!</h1>
+        <p id="play-intro">Think you’re quick enough? The kitty keeps running away! Catch it by clicking — and watch
+            your score grow&#128377;</p>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Kitty</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="care.html">Care</a>
+            <a href="play.html">Playtime</a>
+            <a href="form.html">Adoption Form</a>
+        </nav>
+    </header>
+    <main>
+        <div style="text-align: center;">
+            <button id="show-instructions">Show Instructions</button>
+        </div>
+
+        <p id="instructions" style="display: none;">
+            How to play: The cat will move around the screen every 1.5 seconds.<br>
+            Click on it to earn points. Try to beat your high score!
+        </p>
+
+        <p id="score">Score: 0</p>
+
+        <div id="play-area">
+            <img src="cat/dancing.gif" id="cat">
+        </div>
+    </main>
+
+    <footer>
+        <p>Created by Diana and Zumrad</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
 </html>
